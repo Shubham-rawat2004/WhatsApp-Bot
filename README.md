@@ -5,22 +5,6 @@ A simple Spring Boot REST API that simulates the backend of a WhatsApp chatbot. 
 
 This project is designed as a clean starter backend for chatbot workflows, demos, and Spring Boot learning.
 
-Features
-REST API endpoint for chatbot messages
-JSON request and response handling
-Predefined chatbot replies for common messages
-Validation for null or empty input
-Structured error responses
-SLF4J logging for request processing and validation events
-Tech Stack
-Java 17
-Spring Boot 3
-Spring Web
-Spring Validation
-Maven
-SLF4J with Spring Boot logging
-Project Structure
-=======
 ## Features
 
 - REST API endpoint for chatbot messages
