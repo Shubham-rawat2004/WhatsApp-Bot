@@ -1,0 +1,7 @@
+com\example\whatsappbot\WhatsappBotApplication.class
+com\example\whatsappbot\service\ChatbotService.class
+com\example\whatsappbot\model\ChatRequest.class
+com\example\whatsappbot\model\ChatResponse.class
+com\example\whatsappbot\controller\WebhookController.class
+com\example\whatsappbot\controller\GlobalExceptionHandler.class
+com\example\whatsappbot\model\ErrorResponse.class
