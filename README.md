@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-WhatsApp Bot Backend Simulation
-=======
+
 # WhatsApp Bot Backend Simulation
 
->>>>>>> b03db9b (Built Whatsapp Chatbot with specified requirement)
 A simple Spring Boot REST API that simulates the backend of a WhatsApp chatbot. The application accepts incoming messages through a webhook-style endpoint, applies predefined reply logic, and returns a structured JSON response.
 
 This project is designed as a clean starter backend for chatbot workflows, demos, and Spring Boot learning.
 
-<<<<<<< HEAD
 Features
 REST API endpoint for chatbot messages
 JSON request and response handling
@@ -61,10 +57,10 @@ Receives a message payload and returns a chatbot reply in JSON format.
 
 Base URL
 
-http://localhost:8080
+http://localhost:8081
 Full URL
 
-POST http://localhost:8080/webhook
+POST http://localhost:8081/webhook
 Request Headers
 Content-Type: application/json
 Request Body
@@ -80,13 +76,13 @@ Receives a message payload and returns a chatbot reply in JSON format.
 **Base URL**
 
 ```text
-http://localhost:8080
+http://localhost:8081
 ```
 
 **Full URL**
 
 ```text
-POST http://localhost:8080/webhook
+POST http://localhost:8081/webhook
 ```
 
 ### Request Headers
@@ -328,7 +324,7 @@ mvn spring-boot:run
 4. The API will be available at:
 
 ```text
-http://localhost:8080
+http://localhost:8081
 ```
 
 ### Build the Project
@@ -351,7 +347,3 @@ The project uses SLF4J with Spring Boot's default logging setup. Incoming reques
 - Add richer intent handling and NLP integration
 - Add authentication and webhook verification
 
-## License
-
->>>>>>> b03db9b (Built Whatsapp Chatbot with specified requirement)
-This project is provided for learning and demonstration purposes.
